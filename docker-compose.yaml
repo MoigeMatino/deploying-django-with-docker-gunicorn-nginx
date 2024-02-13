@@ -10,5 +10,6 @@ services:
       - 8000:8000
     env_file:
       - .env.dev
-    
+    environment:
+      - "DJANGO_SECRET_KEY=xkxo+#c-$l9^&h&s7c^1-1saw-@h4u+(%7xaxgk5%w82w&(dt*"
 
