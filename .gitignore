@@ -6,3 +6,4 @@
 *.py[cod] 
 *$py.class
 .env.dev
+db.sqlite3
