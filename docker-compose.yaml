@@ -31,14 +31,8 @@ services:
       - POSTGRES_PASSWORD:${POSTGRES_PASSWORD}
       - POSTGRES_DB:${POSTGRES_DB}
       
-    # networks:
-    #   - mynetwork
+    
 
 volumes:
   postgres_data:
     driver: local
-
-# networks:
-#   mynetwork:
-#     driver: bridge
-
