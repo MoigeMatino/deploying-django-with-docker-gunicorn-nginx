@@ -5,5 +5,8 @@
 # Python # 
 *.py[cod] 
 *$py.class
-.env.dev
 db.sqlite3
+
+.env.dev
+.env.prod.db
+.env.prod
