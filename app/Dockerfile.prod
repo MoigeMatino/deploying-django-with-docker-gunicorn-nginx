@@ -1,8 +1,7 @@
-###########
-# BUILDER #
-# to prepare dependencies and 
-# run linting before building the final image. 
-###########
+####################
+# BUILDER IMAGE #
+# to prepare dependencies & run linting before building the final image. 
+####################
 
 # pull official base image
 FROM python:3.11.3-slim-buster as builder
@@ -31,9 +30,9 @@ RUN pip wheel --no-cache-dir --no-deps --wheel-dir /usr/src/app/wheels -r requir
 
 
 
-#########
-# FINAL #
-#########
+###################
+# FINAL IMAGE #
+###################
 
 # pull official base image
 FROM python:3.11.3-slim-buster
