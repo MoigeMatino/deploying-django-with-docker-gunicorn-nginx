@@ -16,7 +16,7 @@ This repository provides a comprehensive guide and template for deploying a Djan
 
 ## Features
 - **Django**: Utilize Django, a high-level Python web framework, for building robust web applications.
-- **Nginx (Reverse Proxy)**: Incorporate Nginx as a reverse proxy server to efficiently handle client requests and distribute them to the appropriate backend servers.
+- **Nginx (Reverse Proxy)**: Incorporate Nginx as a reverse proxy server to efficiently handle client requests and distribute them to the appropriate backend servers. Additionally it serves the static files.
 - **Containerization with Docker**: Containerize the Django application and Nginx server using Docker for consistent deployment across different environments.
 
 ## Prerequisites:
